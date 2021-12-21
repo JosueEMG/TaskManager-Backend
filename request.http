@@ -1,0 +1,23 @@
+###
+GET http://localhost:3000/api/tasks
+
+###
+GET http://localhost:3000/api/tasks/610c9e1a4b945e487c18448b
+
+###
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "My first task",
+    "content": "I like this task"
+}
+
+###
+PUT http://localhost:3000/api/tasks/610c9e1a4b945e487c18448b
+Content-Type: application/json
+
+{
+    "title": "My second task",
+    "content": "I like this task"
+}
